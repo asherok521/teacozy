@@ -1,9 +1,9 @@
 html {
-  font-family: Helvetica sans-serif;
-  font-size: 22px;
-  color: Seashell;
   background-color: Black;
   opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
 }
 header {
   display: inline-flex;
@@ -17,13 +17,15 @@ header {
 header img {
   height: 50px;
   padding-left: 10px;
-
 }
 header h1 {
   display: inline-flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
   justify-content: space-between;
   text-decoration: underline;
-  width: 630px;
+  width: 400px;
 }
 .main {
   display: flex;
@@ -54,6 +56,7 @@ header h1 {
 }
 .month-tea {
   padding-bottom: 10px;
+  padding-right: 30px;
   width: 300px;
   height: 200px;
 }
@@ -81,19 +84,17 @@ header h1 {
   text-align: center;
   background-color: Black;
   opacity: 1;
-  border: 1px solid red;
 }
 .tea-cozy-locations {
-  width: 1200px;
+  width: 980px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  flex-basis: 300px;
   margin: 0 20px;
-  border: 1px solid blue;
 }
-.location div {
-  margin: 0px;
+.location h2 {
+  margin: 15px 10px;
+  text-align: center;
 }
 .contact {
   display: block;
