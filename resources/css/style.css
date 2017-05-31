@@ -1,3 +1,5 @@
+/* Still need to have fixed header that allows everything to flow behind it and working links */
+
 html {
   background-color: Black;
   opacity: 0.9;
@@ -12,6 +14,9 @@ header {
   background-color: Black;
   width: 100%;
   height: 69px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
   border-bottom: 1px solid SeaShell;
 }
 header img {
@@ -26,6 +31,7 @@ header h1 {
   justify-content: space-between;
   text-decoration: underline;
   width: 400px;
+  padding-right: 10px;
 }
 header a {
   color: Seashell;
@@ -35,6 +41,7 @@ header a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 62px;
 }
 #background-pic {
   background-image: url("../images/img-mission-background.jpg");
@@ -65,9 +72,13 @@ header a {
   justify-content: center;
   flex-wrap: wrap;
   width: 1000px;
+  padding-bottom: 69px;
 }
 #month-tea p {
   text-align: center;
+}
+#tea {
+  padding-top: 69px;
 }
 .location {
   display: flex;
